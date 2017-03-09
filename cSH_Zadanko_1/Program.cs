@@ -39,15 +39,7 @@ namespace cSH_Zadanko_1
                     maximum = wartosc;
                 }
             }
-
-            /*
-             * 
-             *  Działa Jak powinno chyba!
-             *  
-             * 
-            */
-
-            int licznik = 0;
+            int licznik = 0;  // Powinno Być Ok
             foreach (float wartosc in tablica_losowan)
             {
                 Console.BackgroundColor = ConsoleColor.Black; // Ustawia domyslny kolor tla na czarny

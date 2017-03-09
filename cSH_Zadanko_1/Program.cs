@@ -19,9 +19,11 @@ namespace cSH_Zadanko_1
             int[] tablica_losowan = new int[20]; // Tworzy tablice 20 elementowa
 
             Console.Write("Podaj liczbę losowań: ");
+
             liczba_losowan = Console.ReadLine(); // Wczytuje liczbę losowań z klawiatury
             int X = Int32.Parse(liczba_losowan); // Parsuje / zamienia stringa na inta;
             Console.WriteLine("Liczba losowań " + liczba_losowan);
+            Console.WriteLine("");
             System.Threading.Thread.Sleep(2000);
 
             for (int i = 0; i < X; i++) // Inkrementowanie poszczegolnych elementow tablicy z zakresu 0 do 19 
@@ -42,7 +44,7 @@ namespace cSH_Zadanko_1
             foreach (float wartosc in tablica_losowan)
             {
                 Console.BackgroundColor = ConsoleColor.Black; // Ustawia domyslny kolor tla na czarny
-                Console.Write("|{0,2}|{1,4}|{2,5:F3}|", licznik, wartosc, (float)wartosc / maximum); // 3 Arg.  to normalizacja czyli wartosc przez najwieksza wartosc w tablicy
+                Console.Write("|{0,2}|{1,4}|{2,5:F2}|", licznik, wartosc, (float)wartosc / maximum); // 3 Arg.  to normalizacja czyli wartosc przez najwieksza wartosc w tablicy
 
                 int pomocnicza = 0;
 

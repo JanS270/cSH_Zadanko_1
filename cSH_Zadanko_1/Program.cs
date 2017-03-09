@@ -40,6 +40,13 @@ namespace cSH_Zadanko_1
                 }
             }
 
+            /*
+             * 
+             *  Działa Jak powinno chyba!
+             *  
+             * 
+            */
+
             int licznik = 0;
             foreach (float wartosc in tablica_losowan)
             {

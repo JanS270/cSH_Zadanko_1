@@ -13,6 +13,8 @@ namespace cSH_Zadanko_1
             string liczba_losowan;
             int liczba_wylosowana;
 
+            //Komentarze git
+
             Random rand = new Random((int)DateTime.Now.Ticks); // Tworzy liczbe losowa na podstawie liczby sek od 1970... chyba
             int maximum = 0;
 
